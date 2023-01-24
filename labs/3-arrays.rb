@@ -15,3 +15,37 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# MY LIST
+puts "My List"
+my_list = ["milk", "eggs", "bacon", "beer"]
+puts my_list
+
+puts 
+
+# FRIEND'S LIST
+puts "Friend's List"
+friends_list = ["beer", "cookies", "apples"]
+puts friends_list
+
+puts
+
+# COMBINED LIST
+puts "Combined List"
+combined_list = my_list + friends_list
+puts combined_list
+
+puts
+
+#SORT COMBINED LIST
+puts "Sorted List"
+sorted_list = combined_list.sort
+puts sorted_list
+
+puts
+
+#DEDUPE SORTED LIST
+puts "Unique Sorted List"
+deduped_sorted_list = sorted_list.uniq
+puts deduped_sorted_list
+

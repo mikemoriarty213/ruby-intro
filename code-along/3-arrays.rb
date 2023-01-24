@@ -4,7 +4,11 @@
 
 # Arrays are lists of things
 
+favorite_foods = ["pizza","ice cream","tacos","burritos"]
+
 # Accessing the array
+
+puts favorite_foods[5].inspect
 
 # Add to the array
 
