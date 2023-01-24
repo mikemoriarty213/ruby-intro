@@ -10,10 +10,22 @@
 
 # Strings
 
+
 # Combine strings together
 
 # Variables
 
+
+
 # Combine strings and variables
 
+first_name = "Grogu"
+greeting = "Hello, #{first_name}!"
+puts greeting
+
+
 # String manipulation
+
+puts first_name.upcase
+puts greeting.reverse
+puts greeting.swapcase
